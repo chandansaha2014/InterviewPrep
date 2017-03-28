@@ -24,12 +24,3 @@ zigzag([[0,1],[2,3],[4,5]])
 zigzag([[1],[2],[3]])
 zigzag([[1, 2, 3]])
 
-# direction = 1
-# while col < len(matrix[0]):
-#     while 0 <= row < len(matrix[0]):
-#         print(matrix[row][col])
-#         row += direction
-#     row -= direction
-#
-#     direction = -1 * direction
-#     col += 1
