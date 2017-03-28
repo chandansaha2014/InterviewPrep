@@ -6,15 +6,15 @@ Link : https://www.careercup.com/question?id=5695158902325248
 def zigzag(matrix):
     rows = len(matrix)
     cols = len(matrix[0])
-    print('matrix {0}:' .format(matrix) , end= ' ')
+    print('matrix {0}:' .format(matrix) )
 
     for row in range(0,rows):
         for col in range(0 , min(row + 1 ,cols)):
-            print(matrix[row - col][col] , end= ' ')
+            print(matrix[row - col][col])
 
     for col in range(1, cols):
         for row in range(0, min(cols - col , rows)):
-            print(matrix[rows - row - 1][col + row ], end=' ')
+            print(matrix[rows - row - 1][col + row ])
 
     print()
 
